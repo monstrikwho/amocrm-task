@@ -1,0 +1,48 @@
+@import './_variables'
+
+header
+  position: relative
+  padding-top: 45px
+  font-size: $fontSizeBodyMedium
+  font-weight: 500
+  z-index: 99
+  @media (max-width: $breakpoint-md)
+    padding: 20px 15px
+    font-size: $fontSizeBodySmall
+    background-color: $bgColor
+  .logo
+    display: flex
+    flex-direction: column
+    user-select: none
+    @media (max-width: $breakpoint-md)
+      display: none
+    span
+      margin-top: 10px
+      max-width: 165px
+      font-size: $fontSizeBodyLight
+      font-weight: 300
+      font-family: 'Montserrat', sans-serif
+  nav
+    @media (max-width: $breakpoint-md)
+      flex: 1
+    ul
+      display: flex
+      @media (max-width: $breakpoint-md)
+        justify-content: space-between
+      li
+        margin-right: 30px
+        @media (max-width: $breakpoint-md)
+          margin-right: 15px
+        &:last-child
+          margin: 0
+          @media (max-width: $breakpoint-md)
+            display: none
+  .contacts
+    display: flex
+    @media (max-width: $breakpoint-xxl)
+      display: none
+    .number
+      margin-right: 45px
+    .telegram,
+    .viber
+      margin-right: 30px

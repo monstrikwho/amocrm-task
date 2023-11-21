@@ -1,0 +1,192 @@
+@import './_variables'
+
+main
+  position: relative
+  padding: 90px 0 70px 0
+  z-index: 1
+  @media (max-width: $breakpoint-md)
+    padding: 40px 0 60px 0
+    .row
+      flex-direction: column
+    .main__proposal
+      margin-top: 45px
+  .main
+    &__title
+      max-width: 400px
+      font-size: $fontSizeHeadlineLarge
+      margin-bottom: 30px
+      @media (max-width: $breakpoint-md)
+        font-size: $fontSizeHeadlineMedium
+      span
+        font-weight: 900
+        color: transparent
+        background-clip: text
+        -webkit-background-clip: text
+        background-image: linear-gradient(to right, #FCB045, #FF3F78)
+    &__subtitle
+      max-width: 280px
+      font-size: $fontSizeBodyLarge
+      font-family: Montserrat
+    &__proposal
+      max-width: 330px
+      span
+        font-weight: 700
+        color: transparent
+        background-clip: text
+        -webkit-background-clip: text
+        text-transform: uppercase
+        letter-spacing: .9px
+        background-image: linear-gradient(90deg, #FCB045 36.99%, #FD1D1D 100%)
+
+  .proposal_title
+    margin-bottom: 40px
+    font-size: $fontSizeBodyLarge
+    font-weight: 500
+    text-align: right
+    @media (max-width: $breakpoint-md)
+      text-align: left
+      margin-bottom: 20px
+
+  ul
+    display: grid
+    gap: 30px
+    grid-template: 1fr 1fr / 1fr 1fr
+    grid-template-areas: "widget dashboard" "skype crm"
+    @media (max-width: $breakpoint-md)
+      gap: 10px
+      grid-template-areas: "skype widget" "dashboard crm"
+    li
+      text-align: right
+      @media (max-width: $breakpoint-md)
+        position: relative
+        margin-left: 15px
+        text-align: left
+      &::before
+        content: ''
+        position: absolute
+        left: -15px
+        top: 50%
+        display: inline-block
+        width: 10px
+        height: 1px
+        transform: translateY(-50%)
+        background: linear-gradient(90deg, #FCB045 36.99%, #FD1D1D 100%)
+      &:nth-child(1)
+        grid-area: widget
+      &:nth-child(2)
+        grid-area: dashboard
+      &:nth-child(3)
+        grid-area: skype
+      &:nth-child(4)
+        grid-area: crm
+
+    .title
+      margin-bottom: 6px
+      font-size: $fontSizeBodyLarge
+      font-weight: 500
+      letter-spacing: 0.9px
+      text-transform: uppercase
+      @media (max-width: $breakpoint-md)
+        display: none
+    .description
+      font-size: $fontSizeBodyMedium
+      font-family: Montserrat
+      @media (max-width: $breakpoint-md)
+        display: none
+    .short_desc
+      display: none
+      font-size: $fontSizeBodySmall
+      letter-spacing: 0.65px
+      text-transform: uppercase
+      @media (max-width: $breakpoint-md)
+        display: block
+  .btn
+    float: right
+    padding: 20px 35px
+    margin-top: 60px
+    font-size: $fontSizeBodyMedium
+    font-weight: 500
+    background-color: #4077F3
+    @media (max-width: $breakpoint-md)
+      display: none
+
+.glass
+  position: absolute
+  top: 0
+  right: 0
+  left: 0
+  bottom: 0
+  display: none
+  background: radial-gradient(304.35% 148.2% at 3.2% 3.49%, rgba(255, 246, 233, 0.10) 0%, rgba(26, 29, 35, 0.10) 26.62%, rgba(26, 29, 35, 0.10) 52.1%, rgba(26, 29, 35, 0.01) 70.17%, rgba(26, 29, 35, 0.00) 100%)
+  backdrop-filter: blur(7.5px)
+  z-index: -1
+  @media (max-width: $breakpoint-md)
+    display: block
+.red_light
+  position: absolute
+  top: 50%
+  left: -100px
+  width: 310px
+  height: 310px
+  border-radius: 50%
+  opacity: 0.5
+  background: #961A1A
+  filter: blur(196px)
+  transform: translateY(-50%)
+  z-index: -2
+.purpule_light
+  position: absolute
+  left: 50%
+  top: -350px
+  width: 260px
+  height: 260px
+  border-radius: 50%
+  opacity: 0.5
+  background: #833AB4
+  filter: blur(196px)
+  transform: translateX(-50%)
+  z-index: -2
+  @media (max-width: $breakpoint-md)
+    top: -200px
+.red_ball,
+.red_ball__small
+  position: absolute
+  transform: translateX(-100%)
+  z-index: -2
+  img
+    width: inherit
+    height: inherit
+    filter: drop-shadow(3px 6px 27px rgba(223, 125, 125, 0.25))
+    backdrop-filter: blur(2px)
+.red_ball
+  left: calc( 50% - 130px )
+  top: 0
+  width: 80px
+  height: 80px
+  @media (max-width: $breakpoint-md)
+    left: 30%
+    top: unset
+    bottom: 0
+.red_ball__small
+  top: 80%
+  left: 55%
+  width: 28px
+  height: 28px
+  z-index: -2
+  img
+    filter: drop-shadow(3px 6px 27px rgba(223, 125, 125, 0.25)) blur(2.5px)
+  @media (max-width: $breakpoint-md)
+    display: none
+.purpule_ball
+  position: absolute
+  left: calc( 50% + 130px )
+  top: -110px
+  width: 60px
+  height: 60px
+  z-index: -2
+  img
+    width: inherit
+    height: inherit
+    filter: drop-shadow(3px 6px 27px rgba(177, 118, 217, 0.25)) blur(5px)
+  @media (max-width: $breakpoint-md)
+    top: 50%
