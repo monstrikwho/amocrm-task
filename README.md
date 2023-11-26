@@ -10,7 +10,7 @@
 
 ### Desktop
 
-![Desktop](https://downloader.disk.yandex.ru/preview/3146746e548a113ed3d636e1a364bb8e793e68550101913f9cde3283b8071ca3/655ce6dc/zk7pu1pFVkbRYneJXb2uGqGgr3bTwVhU12UJ7dKOXEwoVmBz_t47mIwljrnywY87PL6GDUtSEovlh1oL2bTVLQ%3D%3D?uid=0&filename=2023-11-21_16-14-18.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=0&tknv=v2&size=2048x2048)
+![Desktop](https://downloader.disk.yandex.ru/preview/ac4f59bb1297e8980edcae0ba336470a04041e383922575904e7729d9c42cf8b/656391ad/zk7pu1pFVkbRYneJXb2uGqGgr3bTwVhU12UJ7dKOXEwoVmBz_t47mIwljrnywY87PL6GDUtSEovlh1oL2bTVLQ%3D%3D?uid=0&filename=2023-11-21_16-14-18.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=0&tknv=v2&size=2048x2048)
 
 ### Mobile
 
