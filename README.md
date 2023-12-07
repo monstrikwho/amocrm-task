@@ -14,4 +14,4 @@
 
 ### Mobile
 
-![Mobile](https://downloader.disk.yandex.ru/preview/da822627b0fb5da414c591dd3a0b328420575cd42a21a78516b9df05398a2713/655ce775/emX5kibmjfvRLxKtDAp9qWDKGLvXs2jv5Yc78u30UulPHnU5onpyWkIi5oIUA83_AdCb8LldZIiYT-AKyagjGA%3D%3D?uid=0&filename=2023-11-21_16-22-10.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=0&tknv=v2&size=2048x2048)
+![Mobile](https://downloader.disk.yandex.ru/preview/019ff3a73abd50e1ca6cd5ab88f1f245df916626e3995aa14b13967c15c739a6/6571d7ad/emX5kibmjfvRLxKtDAp9qWDKGLvXs2jv5Yc78u30UulPHnU5onpyWkIi5oIUA83_AdCb8LldZIiYT-AKyagjGA%3D%3D?uid=0&filename=2023-11-21_16-22-10.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=0&tknv=v2&size=2048x2048)
